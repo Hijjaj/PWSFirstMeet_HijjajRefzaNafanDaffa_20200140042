@@ -25,7 +25,7 @@ public class BarangJpaController implements Serializable {
     public BarangJpaController(EntityManagerFactory emf) {
         this.emf = emf;
     }
-    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("com.example_learnmigratedb_jar_0.0.1-SNAPSHOTPU");;
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("com.example_learnmigratedb_jar_0.0.1-SNAPSHOTPU");
 
     public EntityManager getEntityManager() {
         return emf.createEntityManager();
